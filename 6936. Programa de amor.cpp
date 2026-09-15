@@ -4,6 +4,19 @@ using namespace std;
 
 int main()
 {
-    
+    int N, M, A;
+
+    cin >> N >> M >> A;
+
+    if (N == M && M == A)
+    {
+        cout << "ELLA TE AMA";
+    }
+
+    else
+    {
+        cout << "ELLA NO TE AMA";
+    }
+
     return 0;
 }
